@@ -7,13 +7,13 @@ A collection of React Hooks NPM Packages
 
 - [x] useTitle
 - [x] useInput
-- [x] usePageLeave
 - [x] useClick
+- [x] useHover
 - [x] usePreventLeave
 - [x] useConfirm
+- [x] useBeforeLeave
 - [ ] useFadeIn
 - [ ] useFullscreen
-- [ ] useHover
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
