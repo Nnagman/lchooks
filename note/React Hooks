@@ -1,0 +1,24 @@
+기존의 리액트는 앱을 만들기 위하여 class component, did mount, render를 사용하여 개발하였지만
+Hooks를 사용하면 그럴필요가 없어진다.
+
+어떻게 그게 가능할까? Hooks를 사용하면 functional programming스타일이 된다.
+기존의 방식은 Object programming스타일이었다.
+
+기존엔 react앱을 만들기 위해서 creat-react-app 명령어를 입력하여 앱을 생성하고 나면 state 관리를 위하여
+state를 만들어주고 render에서 state를 사용하고 함수 안에 setState로 state안의 변수를 수정해주고... 정말 복잡하다.
+그럼 이런 class를 벗어나 function을 사용하는 방법이 있을까?
+
+Hooks를 사용한다. useState를 사용한다.
+const [count, setCount] = useState(0);
+
+html요소와 이벤트를 발생시켰을때 실행될 함수(setCount)를 입력한 뒤 그걸 return해주면 끝.
+return( <> {count} <button> onClick={() => setCount(count+1)}>Increment</button> </>);
+
+코드의 길이가 거의 절반이나 줄어들었다.
+
+예시) const [name,value] = usetState(0); value(name+1)
+위 코드처럼 useState는 2개를 준다. value와 value를 변경하는 방법.
+value를 변경하는 방법인 함수(2번째 변수)안에 value를 어떻게 변경할 것인지 입력하면 된다.
+보통 name과 setName으로 만드는게 관습이긴하다. 하지만 위 처럼 입력해도 정상적으로 작동된다.
+
+
