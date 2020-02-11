@@ -9,13 +9,13 @@ A collection of React Hooks NPM Packages
 - [x] useInput
 - [x] useClick
 - [x] useHover
+- [x] useTabs
 - [x] usePreventLeave
 - [x] useConfirm
 - [x] useBeforeLeave
 - [x] useFadeIn
 - [x] useNetwork
-- [ ] useFullscreen
+- [x] useScroll
+- [x] useFullscreen
 - [ ] useNotification
-- [ ] useScroll
-- [ ] useTabs
 - [ ] useAxios
