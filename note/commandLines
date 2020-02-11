@@ -1,0 +1,4 @@
+npm init (each folder)
+npm i react react-dom (each folder, dependencies ->peerDependencies(in package.json) )
+npm login
+npm publish --access public
