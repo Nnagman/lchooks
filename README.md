@@ -12,9 +12,9 @@ A collection of React Hooks NPM Packages
 - [x] usePreventLeave
 - [x] useConfirm
 - [x] useBeforeLeave
-- [ ] useFadeIn
+- [x] useFadeIn
+- [x] useNetwork
 - [ ] useFullscreen
-- [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
 - [ ] useTabs
