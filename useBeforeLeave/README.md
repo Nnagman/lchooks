@@ -1,4 +1,4 @@
-# @lchooks/use-before-leave
+# @lchooks/use-beforeLeave
 
 React Hook to execute a function when the mouse leaves the page. Useful to show a popup or for analytics.
 

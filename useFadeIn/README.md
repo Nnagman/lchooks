@@ -1,4 +1,4 @@
-# @lchooks/use-fade-in
+# @lchooks/use-fadeIn
 
 React Hook to fade in any element.
 

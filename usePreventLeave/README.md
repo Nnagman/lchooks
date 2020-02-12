@@ -1,4 +1,4 @@
-# @lchooks/use-prevent-leave
+# @lchooks/use-preventLeave
 
 React Hook to prompt the user for confirmation before leaving the page. Useful when changes haven't been saved.
 
