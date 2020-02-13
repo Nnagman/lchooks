@@ -1,6 +1,6 @@
 # @lchooks/use-axios
 
-React Hook to get X/Y coordinates of current position of the axios.
+React Hook to request data asynchronous And Refetch when the user executing a function.
 
 노마드코더 수업을 들으면서 클론코딩했습니다.
 Thank you nomadcoders!!
